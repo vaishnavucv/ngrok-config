@@ -1,0 +1,15 @@
+version: "2"
+authtoken: 26bEfSIlR1IcEEayMpRQlj0ttGw_3hrWetKnHZ4FMXc9hDt3Q
+tunnels:
+  web:
+    proto: http
+    hostname: commonly-suitable-mako.ngrok-free.app
+    addr: 127.0.0.1:80
+    basic_auth:
+      - "justuser:Password123$"
+  ssh:
+    proto: tcp
+    addr: 127.0.0.1:22
+  web01:
+    proto: tcp
+    addr: 127.0.0.1:443

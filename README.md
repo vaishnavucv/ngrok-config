@@ -20,7 +20,7 @@
     ```
 - replace the username in ngrok.service accoding to your system username
     ```bash
-    sed -i 's/^User=.*/User=justuser/'  /etc/systemd/system/ngrok.service
+    sudo sed -i 's/^User=.*/User=justuser/'  /etc/systemd/system/ngrok.service
     ```
 - copy the ngrok.conf file to /.config/
     ```bash
