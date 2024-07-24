@@ -11,7 +11,7 @@
     ```bash
     sudo apt-get update
     sudo apt-get install snap -y
-    sudo snap install ngrok
+    sudo snap install ngrok -y
     ```
 - copy ngrok.service to systemd
 
