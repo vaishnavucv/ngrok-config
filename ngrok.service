@@ -1,0 +1,12 @@
+[Unit]
+Description=Ngrok Service
+After=network.target
+
+[Service]
+ExecStart=/snap/bin/ngrok start --all
+Restart=on-failure
+# Replace 'your_user' with the username under which you want to run ngrok
+User=justuser
+
+[Install]
+WantedBy=multi-user.target
