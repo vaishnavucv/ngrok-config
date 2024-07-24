@@ -24,7 +24,7 @@
     ```
 - copy the ngrok.conf file to /.config/
     ```bash
-    mv ngrok.yml  /home/$USER/.config/ngrok/ngrok.yml
+    mv ngrok  /home/$USER/.config/
     ```
 - Change username in ngrok.yml, replace justuser with your username
     ```bash
