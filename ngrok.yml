@@ -6,7 +6,7 @@ tunnels:
     hostname: commonly-suitable-mako.ngrok-free.app
     addr: 127.0.0.1:80
     basic_auth:
-      - "justuser:Password123$"
+      - "justuser:Passw0rd123$"
   ssh:
     proto: tcp
     addr: 127.0.0.1:22
